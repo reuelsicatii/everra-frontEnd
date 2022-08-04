@@ -52,7 +52,7 @@ function ListingComp() {
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-start pb-3' >
-                                    <a className='btn btn-success bg-success text-white'>Contact Us for more Details</a>
+                                    <a className='btn btn-success bg-success text-white' href='/contact-us'>Contact Us for more Details</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ function ListingComp() {
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-start pb-3' >
-                                    <a className='btn btn-success bg-success text-white'>Contact Us for more Details</a>
+                                    <a className='btn btn-success bg-success text-white' href='/contact-us'>Contact Us for more Details</a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ function ListingComp() {
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-start pb-3' >
-                                    <a className='btn btn-success bg-success text-white'>Contact Us for more Details</a>
+                                    <a className='btn btn-success bg-success text-white' href='/contact-us'>Contact Us for more Details</a>
                                 </div>
                             </div>
                         </div>

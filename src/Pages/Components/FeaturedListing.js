@@ -221,7 +221,7 @@ function FeaturedListing() {
                 <div className='container d-flex justify-content-center m-2'>
                   <div className='d-flex flex-col mb-3'>
                     <a className='btn btn-primary mx-2' href="">Learn More</a>
-                    <a className='btn btn-primary mx-2' href="">Inquire</a>
+                    <a className='btn btn-primary mx-2' href="/contact-us">Inquire</a>
                   </div>
                 </div>
 

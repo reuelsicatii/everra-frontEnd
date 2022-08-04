@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Modal, Button } from 'react-bootstrap'
-import axios from 'axios'
+import { send } from 'emailjs-com';
+import useSendEmail from "../../Hooks/useSendEmail"
 
 function ContactUsComp() {
 
@@ -12,42 +13,36 @@ function ContactUsComp() {
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
     const [mobile, setMobile] = useState("");
+    const [address, setAddress] = useState("");
     const [message, setMessage] = useState("");
 
-    // async function addLead() {
+    function sendLead(e) {
 
-    //     if (!fullname || !email || !mobile || !message) {
+        if (!fullname || !email || !mobile || !message) {
 
-    //         console.log("One or all fields are empty");
-    //         setModalShowError(true);
+            console.log("One or all fields are empty");
+            setModalShowError(true);
 
-    //     }
+        }
 
-    //     else {
+        else {
 
-    //         let formData = new FormData();
-    //         formData.append('fullname', fullname);
-    //         formData.append('email', email);
-    //         formData.append('mobile', mobile);
-    //         formData.append('stage', "Marketing Acquired Lead");
-    //         formData.append('status', "Open");
-    //         formData.append('message', message);
+            e.preventDefault();
+            send(
+                'service_2rovyok',
+                'template_i9ln0kz',
+                { fullname, email, mobile, message, address },
+                'ks1W4IJypA6KzHBVM'
+            )
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                })
+                .catch((err) => {
+                    console.log('FAILED...', err);
+                });
 
-    //         let requestAddLead = {
-    //             method: 'POST',
-    //             url: process.env.REACT_APP_BACKENDURL + '/api/addLead',
-    //             headers: {
-    //                 "Content-Type": 'multipart/form-data',
-    //                 "Accept": 'application/json'
-    //             },
-    //             data: formData
-    //         }
-
-    //         await axios(requestAddLead);
-    //         setModalShowSuccess(true);
-
-    //     }
-    // }
+        }
+    }
 
 
     return (
@@ -59,7 +54,7 @@ function ContactUsComp() {
                             <div className="d-flex justify-content-center">
                                 <i className="bi bi-envelope" style={{ fontSize: "70px" }}></i>
                             </div>
-                            <h2 className="text-center fw-bold mb-0 pb-0">Contact Us</h2>
+                            <h2 className="text-center fw-bold mb-0 pb-0">Leave Us a Message</h2>
                             <p className="text-center mt-0 pt-0">We would love to hear from you</p>
                         </div>
                     </div>
@@ -106,14 +101,14 @@ function ContactUsComp() {
                                         className="form-control"
                                         placeholder="2562 Jupiter cor Evangelist St Brgy Bel-Air, Makati City, Philippines, 1209"
                                         rows="4"
-                                        onChange={(e) => setMessage(e.target.value)} required>
+                                        onChange={(e) => setAddress(e.target.value)} required>
                                     </textarea>
                                 </div>
                                 <div className="input-group mb-3">
                                     <span className="input-group-text">Message<small style={{ color: "red", paddingLeft: "0.2em" }}>(REQ)</small> </span>
                                     <textarea
                                         className="form-control"
-                                        placeholder="Drop your message here and we'll call on your most immediate and available time."
+                                        placeholder="Drop your message here and we'll connect on your most immediate and available time."
                                         rows="6"
                                         onChange={(e) => setMessage(e.target.value)} required>
                                     </textarea>
@@ -121,7 +116,7 @@ function ContactUsComp() {
                             </div>
                             <button type="submit"
                                 className="btn btn-success btn-lg w-100"
-                            // onClick={addLead}
+                                onClick={sendLead}
                             >Submit</button>
                         </div>
                     </div>
