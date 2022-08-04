@@ -41,6 +41,9 @@ function ContactUsComp() {
                     console.log('FAILED...', err);
                 });
 
+            setModalShowSuccess(true);
+
+
         }
     }
 
