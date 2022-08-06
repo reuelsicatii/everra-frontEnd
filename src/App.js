@@ -7,8 +7,10 @@ import ListingCondominium from './Pages/ListingCondominium';
 import SMDCLushResidences from './Pages/SMDCLushResidences';
 import NotFound from './Pages/NotFound';
 import NotFoundDashboard from './Pages/NotFoundDashboard';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -46,6 +48,9 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
+
+      <MessengerCustomerChat pageId="794030950692039" appId="803836814309013"
+      />
     </div>
   );
 }
