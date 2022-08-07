@@ -87,6 +87,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
+      
 
       <MessengerCustomerChat pageId="794030950692039" appId="803836814309013"
       />
