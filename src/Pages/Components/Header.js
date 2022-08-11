@@ -70,7 +70,8 @@ function Header() {
                                             LISTING
                                         </a>
                                         <ul className="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                                            <li><Link className="dropdown-item nav-link text-center fw-bold" to="/listing-condominium">Condominium</Link></li>
+                                            <li><Link className="dropdown-item nav-link text-center fw-bold" to="/listing-rent">For Rent</Link></li>
+                                            <li><Link className="dropdown-item nav-link text-center fw-bold" to="/listing-sale">For Sale</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
@@ -84,10 +85,10 @@ function Header() {
                                         <a className="nav-link active dropdown-toggle"
                                             href="/#" id="navbarDropdown" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            SMDC PROJECTS
+                                            PROJECTS
                                         </a>
                                         <ul className="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                                            <li><Link className="dropdown-item nav-link text-center fw-bold" to="/smdc-lushresidences">Lush Residences</Link></li>
+                                            <li><Link className="dropdown-item nav-link text-center fw-bold" to="/project/smdc-lushresidences">Lush Residences</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

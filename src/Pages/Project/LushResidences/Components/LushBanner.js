@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Assets/Landing.css"
+import "../../../../Assets/Landing.css"
 
 
 function LushBanner() {

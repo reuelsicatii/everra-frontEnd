@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from './Components/Header';
-import ListingComp from './Components/ListingComp';
+import ListingRentComp from './Components/ListingRentComp';
 import Footer from './Components/Footer';
 
 
-function ListingCondominium() {
+function ListingRent() {
 
     return (
         <div>
             <Header />
-            <ListingComp />
+            <ListingRentComp />
             <Footer />
         </div>
     )
 }
 
-export default ListingCondominium
+export default ListingRent
