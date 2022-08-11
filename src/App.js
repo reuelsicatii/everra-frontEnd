@@ -1,36 +1,33 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+// Plugins and Assets
+// ===============================================
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
+// Pages
+// ===============================================
 import Home from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';
-import ListingCondominium from './Pages/ListingCondominium';
-import SMDCLushResidences from './Pages/SMDCLushResidences';
+import ListingRent from './Pages/ListingRent';
+import ListingSale from './Pages/ListingSale';
+import SMDCLushResidences from './Pages/Project/LushResidences/SMDCLushResidences';
 import NotFound from './Pages/NotFound';
 import NotFoundDashboard from './Pages/NotFoundDashboard';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+
+
+// Listing Rent
+// ===============================================
+import JapaneseStyleFurnishedStudio from './Pages/ListingRent/JapaneseStyleFurnishedStudio';
+import TheResidencesAtGreenbelt from './Pages/ListingRent/TheResidencesAtGreenbelt';
+import StFrancisShangrila from './Pages/ListingRent/StFrancisShangrila';
+
+
+// Listing Sale
+// ===============================================
 
 function App() {
-
-  // const propTypes = {
-  //   pageId: PropTypes.string.isRequired,
-  //   appId: PropTypes.string.isRequired,
-
-  //   shouldShowDialog: PropTypes.bool,
-  //   htmlRef: PropTypes.string,
-  //   minimized: PropTypes.bool,
-  //   themeColor: PropTypes.string,
-  //   loggedInGreeting: PropTypes.string,
-  //   loggedOutGreeting: PropTypes.string,
-  //   greetingDialogDisplay: PropTypes.oneOf(['show', 'hide', 'fade']),
-  //   greetingDialogDelay: PropTypes.number,
-  //   autoLogAppEvents: PropTypes.bool,
-  //   xfbml: PropTypes.bool,
-  //   version: PropTypes.string,
-  //   language: PropTypes.string,
-  //   debug: PropTypes.bool,
-  //   onCustomerChatDialogShow: PropTypes.func,
-  //   onCustomerChatDialogHide: PropTypes.func,
-  // };
 
   const defaultProps = {
     shouldShowDialog: false,
@@ -65,18 +62,36 @@ function App() {
 
 
           {/* Unprotected Routes - Dashboard Page*/}
-          {/* ============================*/}
+          {/* ========================================*/}
           {/* <Route path='/dashboard/login' element={<DLogin />} /> */}
 
 
-          {/* Unprotected Routes - Business Page*/}
-          {/* ============================*/}
+          {/* Unprotected Routes - Header Page*/}
+          {/* ========================================*/}
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/contact-us' element={<ContactUs />} />
-          <Route path='/listing-condominium' element={<ListingCondominium />} />
-          <Route path='/smdc-lushresidences' element={<SMDCLushResidences />} />
+          <Route path='/listing-rent' element={<ListingRent />} />
+          <Route path='/listing-sale' element={<ListingSale />} />
+          
           {/* <Route path='/order/productform' element={<FormOrder />} />*/}
           {/*<Route path='/order/payment/:order_code' element={<PaymentOrder />} /> */}
+
+
+          {/* Unprotected Routes - Listing Rent Page*/}
+          {/* ========================================*/}
+          <Route path='/listing-rent/japanese-style-furnished-studio' element={<JapaneseStyleFurnishedStudio />} />
+          <Route path='/listing-rent/the-residences-at-greenbelt' element={<TheResidencesAtGreenbelt />} />
+          <Route path='/listing-rent/st-francis-shangrila' element={<StFrancisShangrila />} />
+
+
+
+          {/* Unprotected Routes - Listing Sale Page*/}
+          {/* ========================================*/}
+
+
+          {/* Unprotected Routes - Project Page*/}
+          {/* ========================================*/}
+          <Route path='/project/smdc-lushresidences' element={<SMDCLushResidences />} />
 
 
 
@@ -87,7 +102,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
-      
+
 
       <MessengerCustomerChat pageId="794030950692039" appId="803836814309013"
       />

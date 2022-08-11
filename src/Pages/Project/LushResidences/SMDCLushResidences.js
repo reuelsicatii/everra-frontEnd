@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Components/Header';
+import Header from '../../../Pages/Components/Header';
+import Footer from '../../../Pages/Components/Footer';
+import PrincipalBroker from '../../../Pages/Components/PrincipalBroker';
 import LushBanner from './Components/LushBanner';
 import LushAbout from './Components/LushAbout';
 import LushLocation from './Components/LushLocation';
 import LushAmenities from './Components/LushAmenities';
 import LushFloorLayout from './Components/LushFloorLayout';
 import LushUnits from './Components/LushUnits';
-import PrincipalBroker from './Components/PrincipalBroker';
-import Footer from './Components/Footer';
 
 function LushResidences() {
   return (

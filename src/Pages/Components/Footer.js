@@ -12,7 +12,7 @@ function Footer() {
                             <div className="text-white-50 mt-4">
                                 <h3 className="text-white text-start">Address</h3>
                                 <p className="text-start">
-                                    <i className="bi bi-pin-map-fill"> 285, Vito Cruz Extension, Makati City, 1204 Metro Manila, Philippines</i>
+                                    <i className="bi bi-pin-map-fill">Makati City, 1204 Metro Manila, Philippines</i>
                                 </p>
                             </div>
                             <div className="text-white-50">
@@ -20,9 +20,13 @@ function Footer() {
                                 <p className="text-start">
                                     <i className="bi bi-phone-fill"> 63.915.6978008</i>
                                     <br></br>
-                                    <i className="bi bi-whatsapp"> 63.915.6978008</i>
+                                    <i className="bi bi-whatsapp"> 63.915.6978008 (whatsapp)</i>
                                     <br></br>
-                                    <i className="bi bi-envelope-fill"> info@everra.net </i>
+                                    <i className="bi bi-whatsapp"> 63.915.6978008 (viber)</i>
+                                    <br></br>
+                                    <a className='text-white' href="/about-us">
+                                        <i className="bi bi-envelope-fill"> info@everra.net </i>
+                                    </a>
                                     <br></br>
                                     <a className="text-white" href="https://web.facebook.com/EverraRealty"><i className="bi bi-facebook"></i></a>
                                     {" "}
@@ -38,12 +42,16 @@ function Footer() {
                     <div className="col-lg-8 embed-responsive embed-responsive-1by1">
                         <iframe className="embed-responsive-item"
                             width="100%" height="100%"
-                            src="https://maps.google.com/maps?q=Kingswood%20Makati%20Condominium%20Corporation&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=Makati%20City&t=&z=17&ie=UTF8&iwloc=&output=embed"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                 </div>
                 <div className='row d-flex justify-content-center text-white-50'>COPYRIGHTS NIMPHUS INC. ALL RIGHTS RESERVED</div>
-                <div className='row justify-content-center text-white fw-bold pb-3'>Design by Reuel B Sicat II</div>
+                <div className='row justify-content-center fw-bold pb-3'>
+                    <a className='text-white' href='https://reuelcv.pages.dev/'>
+                        Design by Reuel B Sicat II
+                    </a>
+                </div>
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ListingComp() {
+function ListingRentComp() {
     return (
         <section id="listing">
             <div className='container my-5'>
@@ -167,4 +167,4 @@ function ListingComp() {
     )
 }
 
-export default ListingComp
+export default ListingRentComp
