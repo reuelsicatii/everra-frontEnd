@@ -11,7 +11,7 @@ function StFrancisShangrila() {
                 <div className='container'>
                     <div className='row my-5'>
                         <h4 className='text-primary text-start mb-0'>Furnished 1 Bedroom in St. Francis Shangri-La, Mandaluyong</h4>
-                        <p className='text-start'> <small><i class="bi bi-pin-map-fill"></i>Shaw Boulevard cor St. Francis, Ortigas Center, Mandaluyong</small></p>
+                        <p className='text-start'> <small><i class="bi bi-pin-map-fill"></i> Shaw Boulevard cor St. Francis, Ortigas Center, Mandaluyong</small></p>
                         <div className='row mb-3'>
                             <div className='col-lg-5'>
                                 <div className='text-start'>
