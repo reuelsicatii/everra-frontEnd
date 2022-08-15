@@ -19,9 +19,12 @@ import NotFoundDashboard from './Pages/NotFoundDashboard';
 
 // Listing Rent
 // ===============================================
-import JapaneseStyleFurnishedStudio from './Pages/ListingRent/JapaneseStyleFurnishedStudio';
+import TheLerato from './Pages/ListingRent/TheLerato';
 import TheResidencesAtGreenbelt from './Pages/ListingRent/TheResidencesAtGreenbelt';
 import StFrancisShangrila from './Pages/ListingRent/StFrancisShangrila';
+import EastonPlace from './Pages/ListingRent/EastonPlace';
+import AsiaTower from './Pages/ListingRent/AsiaTower';
+import KLMosaicTower from './Pages/ListingRent/KLMosaicTower';
 
 
 // Listing Sale
@@ -79,9 +82,13 @@ function App() {
 
           {/* Unprotected Routes - Listing Rent Page*/}
           {/* ========================================*/}
-          <Route path='/listing-rent/japanese-style-furnished-studio' element={<JapaneseStyleFurnishedStudio />} />
+          <Route path='/listing-rent/the-lerato' element={<TheLerato />} />
           <Route path='/listing-rent/the-residences-at-greenbelt' element={<TheResidencesAtGreenbelt />} />
           <Route path='/listing-rent/st-francis-shangrila' element={<StFrancisShangrila />} />
+          <Route path='/listing-rent/easton-place' element={<EastonPlace />} />
+          <Route path='/listing-rent/asia-tower' element={<AsiaTower />} />
+          <Route path='/listing-rent/kl-mosaic-tower' element={<KLMosaicTower />} />
+          
 
 
 

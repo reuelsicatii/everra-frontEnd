@@ -303,9 +303,7 @@ function StFrancisShangrila() {
                         </div>
                     </div>
                 </div>
-
             </section>
-
             <Footer />
         </>
     )
