@@ -10,8 +10,10 @@ function PrincipalBroker() {
 
                         <div className='col-lg-4 my-3'>
                             <img src="/Images/Profile.jpg" className="img-fluid" alt="..."></img>
+                            <p className='text-primary mb-0'>Ms Vinia B. Lapuz, <small>REC, REA, REB & ENP</small> </p>
+                            <p className='text-primary mt-0'><small>PRC REBL No. 0001593</small></p>
                         </div>
-                        <div className='col-lg-8 '>
+                        <div className='col-lg-8'>
                             <h4 className='text-start border-bottom border-dark border-2'>We're There for You</h4>
                             <p className='text-start'>Selling or Buying properties? Whether you’re a
                                 Seller or a Buyer, we are here for you to oversee that the transaction is
