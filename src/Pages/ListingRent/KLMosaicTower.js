@@ -39,7 +39,7 @@ function KLMosaicTower() {
                                     </p>
                                 </div>
                             </div>
-                            <div className='col-lg-7 d-flex align-items-center'>
+                            <div className='col-lg-7'>
                                 <a href='https://everra.s3.ap-southeast-1.amazonaws.com/ListingRent/KLMosaicTower/KLMosaicTower11.jpeg'>
                                     <img src="https://everra.s3.ap-southeast-1.amazonaws.com/ListingRent/KLMosaicTower/KLMosaicTower11.jpeg"
                                         className="img-fluid" alt="...">

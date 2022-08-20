@@ -24,7 +24,7 @@ function Footer() {
                                     <br></br>
                                     <i className="bi bi-whatsapp"> 63.915.6978008 (viber)</i>
                                     <br></br>
-                                    <a className='text-white' href="/about-us">
+                                    <a className='text-white' href="/contact-us">
                                         <i className="bi bi-envelope-fill"> info@everra.net </i>
                                     </a>
                                     <br></br>
@@ -43,7 +43,7 @@ function Footer() {
                         <iframe className="embed-responsive-item"
                             width="100%" height="100%"
                             src="https://maps.google.com/maps?q=Makati%20City&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                     </div>
                 </div>
                 <div className='row d-flex justify-content-center text-white-50'>COPYRIGHTS NIMPHUS INC. ALL RIGHTS RESERVED</div>

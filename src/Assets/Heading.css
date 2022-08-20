@@ -1,0 +1,11 @@
+@media only screen and (min-width: 992px) {
+    #header {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index:100;
+    }
+
+}
