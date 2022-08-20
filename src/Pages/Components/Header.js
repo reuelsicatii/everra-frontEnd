@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from "react-router-dom"
+import "../../Assets/Heading.css"
+
 
 function Header() {
 
@@ -15,7 +17,6 @@ function Header() {
 
     return (
         <section id="header">
-
             <div id="contact-details" className="d-flex justify-content-center text-primary d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
                 <div className="row w-100 p-2">
                     <div className="col-4">
@@ -38,14 +39,13 @@ function Header() {
                     </div>
                 </div>
             </div>
-
             <div id="menu">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-4">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-2">
                     <div className="container">
                         <div>
                             <div className="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
                                 <a className="navbar-brand" href="/">
-                                    <img src="/Images/Logo01.png" alt="logo" style={{ height: '100px', width: '100px', borderRadius: '50%' }} />
+                                    <img src="/Images/Logo01.png" alt="logo" style={{ height: '50px', width: '50px', borderRadius: '50%' }} />
                                 </a>
                             </div>
                             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"

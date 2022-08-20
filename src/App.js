@@ -29,6 +29,11 @@ import KLMosaicTower from './Pages/ListingRent/KLMosaicTower';
 
 // Listing Sale
 // ===============================================
+import MidlandsTagaytay from './Pages/ListingSale/MidlandsTagaytay';
+import SomaTaguig from './Pages/ListingSale/SomaTaguig';
+import AsteriaParanaque from './Pages/ListingSale/AsteriaParanaque';
+
+
 
 function App() {
 
@@ -87,13 +92,18 @@ function App() {
           <Route path='/listing-rent/st-francis-shangrila' element={<StFrancisShangrila />} />
           <Route path='/listing-rent/easton-place' element={<EastonPlace />} />
           <Route path='/listing-rent/asia-tower' element={<AsiaTower />} />
-          <Route path='/listing-rent/kl-mosaic-tower' element={<KLMosaicTower />} />
-          
+          <Route path='/listing-rent/kl-mosaic-tower' element={<KLMosaicTower />} />        
 
 
 
           {/* Unprotected Routes - Listing Sale Page*/}
           {/* ========================================*/}
+          <Route path='/listing-sale/midlands-tagaytay' element={<MidlandsTagaytay />} />
+          <Route path='/listing-sale/soma-taguig' element={<SomaTaguig />} />
+          <Route path='/listing-sale/asteria-paranaque' element={<AsteriaParanaque />} />
+
+          
+
 
 
           {/* Unprotected Routes - Project Page*/}
