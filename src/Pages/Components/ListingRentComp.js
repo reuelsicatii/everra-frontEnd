@@ -120,7 +120,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/the-residences-at-greenbelt'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/Furnished-1-Bedroom-with-Parking-Slot-at-The-Residences-at-Greenbelt'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/st-francis-shangrila'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/Furnished-1-Bedroom-in-St.-Francis-Shangri-La'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -369,7 +369,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/the-lerato'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/Japanese-Syle-Furnished-Studio-in-Lerato'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -512,7 +512,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/easton-place'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/2-Bedroom-Corner-Unit-in-Easton-Place'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -647,7 +647,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/asia-tower'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/2-Bedroom-Corner-Unit-in-Asia-Tower'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -782,7 +782,7 @@ function ListingRentComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-rent/kl-mosaic-tower'>View More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/1-Studio-in-KL-Mosaic-Tower'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>

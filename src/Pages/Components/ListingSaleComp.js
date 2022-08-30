@@ -137,7 +137,7 @@ function ListingSaleComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-sale/midlands-tagaytay'>See More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/House-and-Lot-in-Midlands'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +286,7 @@ function ListingSaleComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-sale/soma-taguig'>See More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/3-Bedroom-with-Parking-in-South-of-Market'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -442,7 +442,7 @@ function ListingSaleComp() {
                                 </p>
                                 <div className='d-flex flex-row'>
                                     <a className='btn btn-primary' href='/listing-sale/asteria-paranaque'>See More Details</a>
-                                    <a className='btn btn-success mx-3' href='/contact-us'>Contact us</a>
+                                    <a className='btn btn-success mx-3' href='/schedule-us/2-Bedroom-with-Balcony-and-Parking-in-Asteria-Residences'>Schedule for Viewing</a>
                                 </div>
                             </div>
                         </div>
