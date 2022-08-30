@@ -9,6 +9,7 @@ import MessengerCustomerChat from 'react-messenger-customer-chat';
 // ===============================================
 import Home from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
+import ScheduleUs from './Pages/ScheduleUs';
 import ContactUs from './Pages/ContactUs';
 import ListingRent from './Pages/ListingRent';
 import ListingSale from './Pages/ListingSale';
@@ -77,6 +78,7 @@ function App() {
           {/* Unprotected Routes - Header Page*/}
           {/* ========================================*/}
           <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/schedule-us/:listing_name' element={<ScheduleUs />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/listing-rent' element={<ListingRent />} />
           <Route path='/listing-sale' element={<ListingSale />} />
